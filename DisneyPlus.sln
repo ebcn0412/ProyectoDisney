@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisneyPlus", "DisneyPlus\DisneyPlus.csproj", "{1818F098-45FD-4064-A041-D1F200543A23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1818F098-45FD-4064-A041-D1F200543A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1818F098-45FD-4064-A041-D1F200543A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1818F098-45FD-4064-A041-D1F200543A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1818F098-45FD-4064-A041-D1F200543A23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B81D0F1B-43A1-407F-AEFC-D23FA9D99A91}
+	EndGlobalSection
+EndGlobal
