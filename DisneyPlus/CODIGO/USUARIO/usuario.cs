@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DisneyPlus.CODIGO
+namespace DisneyPlus.CODIGO.USUARIO
 {
     class usuario
     {
-        int usuarioID { get; set; }
-        string nombre { get; set; }
-        string correo { get; set; }
+        public int usuarioID;
+        public string nombre;
+        public string correo;
         
         public usuario()
         {
