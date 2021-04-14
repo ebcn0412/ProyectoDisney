@@ -41,9 +41,9 @@
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(45, 46);
+            this.button1.Location = new System.Drawing.Point(151, 39);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(491, 126);
+            this.button1.Size = new System.Drawing.Size(300, 80);
             this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
