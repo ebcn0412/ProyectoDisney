@@ -12,7 +12,7 @@ using DisneyPlus.CODIGO.LISTADOBLE;
 
 namespace DisneyPlus
 {
-    public partial class Form1 : Form
+    public partial class Inicio : Form
     {
         int contador = 0;
         listadoble lista;
@@ -20,7 +20,7 @@ namespace DisneyPlus
         List<string> listaNational = new List<string>();
         List<string> listaStar = new List<string>();
         List<string> listaDisney = new List<string>();
-        public Form1()
+        public Inicio()
         {
             InitializeComponent();
             lista = new listadoble();
