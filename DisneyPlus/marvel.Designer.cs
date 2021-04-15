@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(marvel));
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.txtReproducir = new System.Windows.Forms.TextBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
@@ -55,8 +57,6 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.txtReproducir = new System.Windows.Forms.TextBox();
-            this.button5 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -83,6 +83,30 @@
             this.panel2.Size = new System.Drawing.Size(815, 508);
             this.panel2.TabIndex = 5;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Red;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button5.Font = new System.Drawing.Font("Californian FB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(631, 23);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(79, 25);
+            this.button5.TabIndex = 16;
+            this.button5.Text = "Buscar";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // txtReproducir
+            // 
+            this.txtReproducir.BackColor = System.Drawing.Color.Silver;
+            this.txtReproducir.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtReproducir.Cursor = System.Windows.Forms.Cursors.SizeAll;
+            this.txtReproducir.Location = new System.Drawing.Point(61, 23);
+            this.txtReproducir.Multiline = true;
+            this.txtReproducir.Name = "txtReproducir";
+            this.txtReproducir.Size = new System.Drawing.Size(564, 25);
+            this.txtReproducir.TabIndex = 15;
             // 
             // panel6
             // 
@@ -366,30 +390,6 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // txtReproducir
-            // 
-            this.txtReproducir.BackColor = System.Drawing.Color.Silver;
-            this.txtReproducir.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtReproducir.Cursor = System.Windows.Forms.Cursors.SizeAll;
-            this.txtReproducir.Location = new System.Drawing.Point(61, 23);
-            this.txtReproducir.Multiline = true;
-            this.txtReproducir.Name = "txtReproducir";
-            this.txtReproducir.Size = new System.Drawing.Size(564, 25);
-            this.txtReproducir.TabIndex = 15;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.Red;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button5.Font = new System.Drawing.Font("Californian FB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(631, 23);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(79, 25);
-            this.button5.TabIndex = 16;
-            this.button5.Text = "Buscar";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
             // marvel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -397,6 +397,7 @@
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(829, 540);
             this.Controls.Add(this.panel2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "marvel";
             this.Text = "Marvel";
             this.panel2.ResumeLayout(false);
