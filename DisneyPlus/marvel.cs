@@ -16,7 +16,7 @@ namespace DisneyPlus
         {
             InitializeComponent();
         }
-
+        string variable;
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -25,6 +25,11 @@ namespace DisneyPlus
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            //
         }
     }
 }
