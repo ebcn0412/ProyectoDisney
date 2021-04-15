@@ -28,17 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtReproducir = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.txtReproducir = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // txtReproducir
-            // 
-            this.txtReproducir.Location = new System.Drawing.Point(120, 71);
-            this.txtReproducir.Name = "txtReproducir";
-            this.txtReproducir.Size = new System.Drawing.Size(100, 20);
-            this.txtReproducir.TabIndex = 0;
             // 
             // label1
             // 
@@ -58,6 +51,13 @@
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // txtReproducir
+            // 
+            this.txtReproducir.Location = new System.Drawing.Point(120, 71);
+            this.txtReproducir.Name = "txtReproducir";
+            this.txtReproducir.Size = new System.Drawing.Size(100, 20);
+            this.txtReproducir.TabIndex = 0;
             // 
             // reproducir
             // 
