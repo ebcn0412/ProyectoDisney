@@ -49,6 +49,12 @@
     <Compile Include="CODIGO\LISTADOBLE\listadoble.cs" />
     <Compile Include="CODIGO\LISTADOBLE\nodo.cs" />
     <Compile Include="CODIGO\USUARIO\usuario.cs" />
+    <Compile Include="decisionMarvel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="decisionMarvel.Designer.cs">
+      <DependentUpon>decisionMarvel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="decisionMarvel.resx">
+      <DependentUpon>decisionMarvel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

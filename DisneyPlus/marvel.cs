@@ -17,6 +17,9 @@ namespace DisneyPlus
             InitializeComponent();
         }
         string variable;
+        Form salto = new decisionMarvel();
+        decisionMarvel hola = new decisionMarvel();
+        
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -31,12 +34,16 @@ namespace DisneyPlus
         {
             //falcon
             variable = "falcon y el soldado del invierno";
+            hola.txtDato.Text = variable;
+            hola.Show();
+            this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             //wanda vision
             variable = "wanda vision";
+            
         }
 
         private void button8_Click(object sender, EventArgs e)
