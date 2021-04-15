@@ -57,6 +57,7 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -67,6 +68,7 @@
             // panel2
             // 
             this.panel2.AutoScroll = true;
+            this.panel2.Controls.Add(this.textBox1);
             this.panel2.Controls.Add(this.button5);
             this.panel2.Controls.Add(this.txtReproducir);
             this.panel2.Controls.Add(this.panel6);
@@ -390,6 +392,17 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.Black;
+            this.textBox1.Font = new System.Drawing.Font("Californian FB", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.White;
+            this.textBox1.Location = new System.Drawing.Point(10, 761);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(758, 210);
+            this.textBox1.TabIndex = 17;
+            // 
             // marvel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -439,5 +452,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button5;
         public System.Windows.Forms.TextBox txtReproducir;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
