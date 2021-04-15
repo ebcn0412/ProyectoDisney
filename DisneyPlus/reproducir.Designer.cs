@@ -34,7 +34,7 @@
             this.txtReproducir = new System.Windows.Forms.TextBox();
             this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtVer = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -93,17 +93,17 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Continuar viendo";
             // 
-            // textBox1
+            // txtVer
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Black;
-            this.textBox1.Font = new System.Drawing.Font("Californian FB", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(12, 421);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(478, 82);
-            this.textBox1.TabIndex = 5;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtVer.BackColor = System.Drawing.Color.Black;
+            this.txtVer.Font = new System.Drawing.Font("Californian FB", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtVer.ForeColor = System.Drawing.Color.White;
+            this.txtVer.Location = new System.Drawing.Point(12, 421);
+            this.txtVer.Multiline = true;
+            this.txtVer.Name = "txtVer";
+            this.txtVer.Size = new System.Drawing.Size(478, 82);
+            this.txtVer.TabIndex = 5;
+            this.txtVer.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // reproducir
             // 
@@ -111,7 +111,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(502, 515);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtVer);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.axWindowsMediaPlayer1);
             this.Controls.Add(this.button1);
@@ -132,6 +132,6 @@
         public System.Windows.Forms.TextBox txtReproducir;
         private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtVer;
     }
 }
