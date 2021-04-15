@@ -7,14 +7,48 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DisneyPlus.CODIGO.USUARIO;
+using DisneyPlus.CODIGO.LISTADOBLE;
+using DisneyPlus.CODIGO.LISTAS;
 
 namespace DisneyPlus
 {
     public partial class Form1 : Form
     {
+        int contador = 0;
+        listadoble lista;
         public Form1()
         {
             InitializeComponent();
+            lista = new listadoble();
         }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+        private void limpiar()
+        {
+            textBox1.Text = "";
+            textBox2.Text = "";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+
+
+            contador = contador + 1;
+            usuario vDato = new usuario(contador,textBox1.Text,textBox2.Text);
+            lista.agregarAlFinal(vDato);
+            MessageBox.Show("SU CODIGO DE USUARIO ES: "+contador);
+            limpiar();
+            Form formulario = new Form2();
+            formulario.Show();
+            this.Hide();
+
+
+        }
+
+
     }
 }
