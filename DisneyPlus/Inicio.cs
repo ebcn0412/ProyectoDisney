@@ -16,7 +16,6 @@ namespace DisneyPlus
     {
         int contador = 0;
         listadoble lista;
-        List<string> listamarvel = new List<string>();
         List<string> listaNational = new List<string>();
         List<string> listaStar = new List<string>();
         List<string> listaDisney = new List<string>();
@@ -39,12 +38,7 @@ namespace DisneyPlus
             lista.agregarAlFinal(vDato);
             MessageBox.Show("PAGO REALIZADO A TIEMPO, EL SIGUIENTE SERA EN 30 DIAS");
             limpiar();
-            //MARVEL
-            listamarvel.Add("falcon y el soldado del invierno"); listamarvel.Add("wanda vision"); listamarvel.Add("antman");
-            listamarvel.Add("avengers"); listamarvel.Add("black panter"); listamarvel.Add("captain marvel");
-            listamarvel.Add("avengers endgame"); listamarvel.Add("spider man"); listamarvel.Add("agents of shield"); 
-            listamarvel.Add("captain carter "); listamarvel.Add(""); listamarvel.Add("");
-            listamarvel.Add("runaways"); listamarvel.Add("punisher"); listamarvel.Add("616"); listamarvel.Add("legends");
+
 
             //national
             listaNational.Add("atlantis rising"); listaNational.Add("antes que sea tarde"); listaNational.Add("jane"); 

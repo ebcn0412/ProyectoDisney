@@ -25,7 +25,7 @@ namespace DisneyPlus
 
             foreach(string colita in colaReproducir)
             {
-                txtVer.Text = colita|;
+                txtVer.Text = colita;
             }
         }
 

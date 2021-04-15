@@ -15,13 +15,22 @@ namespace DisneyPlus
         public marvel()
         {
             InitializeComponent();
+
+            //MARVEL
+            listamarvel.Add("falcon y el soldado del invierno"); listamarvel.Add("wanda vision"); listamarvel.Add("antman");
+            listamarvel.Add("avengers"); listamarvel.Add("black panter"); listamarvel.Add("captain marvel");
+            listamarvel.Add("avengers endgame"); listamarvel.Add("spider man"); listamarvel.Add("agents of shield");
+            listamarvel.Add("captain carter "); listamarvel.Add(""); listamarvel.Add("");
+            listamarvel.Add("runaways"); listamarvel.Add("punisher"); listamarvel.Add("616"); listamarvel.Add("legends");
         }
         string variable;
         Form salto = new decisionMarvel();
         decisionMarvel hola = new decisionMarvel();
+        List<string> listamarvel = new List<string>();
 
-        
-        
+
+
+
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -31,6 +40,8 @@ namespace DisneyPlus
         {
 
         }
+
+
 
         private void button4_Click(object sender, EventArgs e)
         {
@@ -161,7 +172,17 @@ namespace DisneyPlus
 
         private void button5_Click(object sender, EventArgs e)
         {
-          
+
+            foreach(string elemento in listamarvel)
+            {
+                if (elemento.Equals(txtReproducir.Text))
+                {
+                    MessageBox.Show("Si existe la pelicula: "+txtReproducir.Text);
+
+                }
+                
+            }
+
         }
     }
 }
