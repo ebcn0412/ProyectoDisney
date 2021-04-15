@@ -23,7 +23,6 @@ namespace DisneyPlus
         {
             pilaMiLista.Push(txtDato.Text);
             MessageBox.Show("Agregado a tu lista: "+txtDato.Text);
-            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)

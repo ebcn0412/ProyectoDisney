@@ -23,6 +23,12 @@ namespace DisneyPlus
             colaReproducir.Enqueue(txtReproducir.Text);
             MessageBox.Show("Agregado a ver continuar viendo: " + txtReproducir.Text);
 
+            foreach()
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

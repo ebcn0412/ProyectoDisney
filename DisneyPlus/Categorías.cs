@@ -19,17 +19,17 @@ namespace DisneyPlus
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //-------aqui hacemos el cambio de form--------------
-            Form formMarvel = new marvel();
-            formMarvel.Show();
-            this.Hide();
-            //--------------------------------------------------
+
 
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-
+            //-------aqui hacemos el cambio de form--------------
+            Form formMarvel = new marvel();
+            formMarvel.Show();
+            this.Hide();
+            //--------------------------------------------------
         }
     }
 }
