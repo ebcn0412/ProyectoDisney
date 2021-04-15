@@ -58,6 +58,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button6 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -68,6 +69,7 @@
             // panel2
             // 
             this.panel2.AutoScroll = true;
+            this.panel2.Controls.Add(this.button6);
             this.panel2.Controls.Add(this.textBox1);
             this.panel2.Controls.Add(this.button5);
             this.panel2.Controls.Add(this.txtReproducir);
@@ -403,6 +405,19 @@
             this.textBox1.Size = new System.Drawing.Size(758, 210);
             this.textBox1.TabIndex = 17;
             // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.Red;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button6.Font = new System.Drawing.Font("Californian FB", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.Location = new System.Drawing.Point(692, 94);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(92, 31);
+            this.button6.TabIndex = 18;
+            this.button6.Text = "Regresar";
+            this.button6.UseVisualStyleBackColor = false;
+            // 
             // marvel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -453,5 +468,6 @@
         private System.Windows.Forms.Button button5;
         public System.Windows.Forms.TextBox txtReproducir;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button6;
     }
 }
