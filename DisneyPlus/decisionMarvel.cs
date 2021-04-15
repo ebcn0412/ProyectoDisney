@@ -17,12 +17,12 @@ namespace DisneyPlus
             InitializeComponent();
         }
         Stack<string> pilaMiLista = new Stack<string>();
-        marvel regreso = new marvel();
+        //marvel regreso = new marvel();
         private void button1_Click(object sender, EventArgs e)
         {
             pilaMiLista.Push(txtDato.Text);
             MessageBox.Show("Agregado a tu lista: "+txtDato.Text);
-            regreso.Show();
+            //regreso.Show();
             this.Hide();
         }
     }
