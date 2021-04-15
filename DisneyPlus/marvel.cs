@@ -19,6 +19,8 @@ namespace DisneyPlus
         string variable;
         Form salto = new decisionMarvel();
         decisionMarvel hola = new decisionMarvel();
+
+        
         
         private void label1_Click(object sender, EventArgs e)
         {
