@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DisneyPlus
 {
-    public partial class Form2 : Form
+    public partial class Categorías : Form
     {
-        public Form2()
+        public Categorías()
         {
             InitializeComponent();
         }

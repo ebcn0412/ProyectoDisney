@@ -37,7 +37,7 @@ namespace DisneyPlus
             contador = contador + 1;
             usuario vDato = new usuario(contador,textBox1.Text,textBox2.Text);
             lista.agregarAlFinal(vDato);
-            MessageBox.Show("TIENE MENOS DE 30 DIAS PRA VOLVER A PAGAR");
+            MessageBox.Show("PAGO REALIZADO A TIEMPO, EL SIGUIENTE SERA EN 30 DIAS");
             limpiar();
             //MARVEL
             listamarvel.Add("falcon y el soldado del invierno"); listamarvel.Add("wanda vision"); listamarvel.Add("antman");
@@ -51,7 +51,7 @@ namespace DisneyPlus
             listaNational.Add("dentro del okavango"); listaNational.Add("apollo"); listaNational.Add("la historia de dios"); 
             listaNational.Add("catastrofes aereas"); listaNational.Add("genios que cambiaron"); listaNational.Add("the hot zone");
             listaNational.Add("secretos en los oceanos");
-            Form formulario = new Form2();
+            Form formulario = new Categorías();
             formulario.Show();
             this.Hide();
 
