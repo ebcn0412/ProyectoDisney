@@ -1,6 +1,6 @@
 ﻿namespace DisneyPlus
 {
-    partial class StarWars
+    partial class Pixar
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StarWars));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pixar));
             this.panel2 = new System.Windows.Forms.Panel();
             this.button6 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtMarv = new System.Windows.Forms.TextBox();
             this.button5 = new System.Windows.Forms.Button();
             this.txtReproducir = new System.Windows.Forms.TextBox();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -69,9 +69,8 @@
             // panel2
             // 
             this.panel2.AutoScroll = true;
-            this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.Controls.Add(this.button6);
-            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.txtMarv);
             this.panel2.Controls.Add(this.button5);
             this.panel2.Controls.Add(this.txtReproducir);
             this.panel2.Controls.Add(this.panel6);
@@ -87,11 +86,10 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(815, 508);
             this.panel2.TabIndex = 5;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.Color.Yellow;
+            this.button6.BackColor = System.Drawing.Color.White;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button6.Font = new System.Drawing.Font("Californian FB", 9.75F, System.Drawing.FontStyle.Bold);
             this.button6.ForeColor = System.Drawing.Color.Black;
@@ -102,20 +100,20 @@
             this.button6.Text = "Regresar";
             this.button6.UseVisualStyleBackColor = false;
             // 
-            // textBox1
+            // txtMarv
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Black;
-            this.textBox1.Font = new System.Drawing.Font("Californian FB", 9.75F, System.Drawing.FontStyle.Bold);
-            this.textBox1.ForeColor = System.Drawing.Color.Yellow;
-            this.textBox1.Location = new System.Drawing.Point(10, 761);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(758, 210);
-            this.textBox1.TabIndex = 17;
+            this.txtMarv.BackColor = System.Drawing.Color.LightSlateGray;
+            this.txtMarv.Font = new System.Drawing.Font("Californian FB", 9.75F, System.Drawing.FontStyle.Bold);
+            this.txtMarv.ForeColor = System.Drawing.Color.White;
+            this.txtMarv.Location = new System.Drawing.Point(10, 761);
+            this.txtMarv.Multiline = true;
+            this.txtMarv.Name = "txtMarv";
+            this.txtMarv.Size = new System.Drawing.Size(758, 210);
+            this.txtMarv.TabIndex = 17;
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.Color.Yellow;
+            this.button5.BackColor = System.Drawing.Color.White;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button5.Font = new System.Drawing.Font("Californian FB", 12F, System.Drawing.FontStyle.Bold);
             this.button5.ForeColor = System.Drawing.Color.Black;
@@ -160,7 +158,6 @@
             this.button13.Size = new System.Drawing.Size(138, 199);
             this.button13.TabIndex = 5;
             this.button13.UseVisualStyleBackColor = true;
-            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button14
             // 
@@ -171,7 +168,6 @@
             this.button14.Size = new System.Drawing.Size(138, 199);
             this.button14.TabIndex = 4;
             this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // button15
             // 
@@ -182,7 +178,6 @@
             this.button15.Size = new System.Drawing.Size(138, 199);
             this.button15.TabIndex = 3;
             this.button15.UseVisualStyleBackColor = true;
-            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button16
             // 
@@ -193,7 +188,6 @@
             this.button16.Size = new System.Drawing.Size(138, 199);
             this.button16.TabIndex = 2;
             this.button16.UseVisualStyleBackColor = true;
-            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // button17
             // 
@@ -204,7 +198,6 @@
             this.button17.Size = new System.Drawing.Size(138, 199);
             this.button17.TabIndex = 1;
             this.button17.UseVisualStyleBackColor = true;
-            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // button18
             // 
@@ -215,14 +208,13 @@
             this.button18.Size = new System.Drawing.Size(137, 199);
             this.button18.TabIndex = 0;
             this.button18.UseVisualStyleBackColor = true;
-            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Yellow;
+            this.label5.BackColor = System.Drawing.Color.LightSlateGray;
             this.label5.Font = new System.Drawing.Font("Californian FB", 20.25F);
-            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(13, 1291);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(79, 31);
@@ -232,9 +224,9 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Yellow;
+            this.label4.BackColor = System.Drawing.Color.LightSlateGray;
             this.label4.Font = new System.Drawing.Font("Californian FB", 20.25F);
-            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(13, 995);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(109, 31);
@@ -264,7 +256,6 @@
             this.button12.Size = new System.Drawing.Size(138, 199);
             this.button12.TabIndex = 5;
             this.button12.UseVisualStyleBackColor = true;
-            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button11
             // 
@@ -275,7 +266,6 @@
             this.button11.Size = new System.Drawing.Size(138, 199);
             this.button11.TabIndex = 4;
             this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button10
             // 
@@ -286,7 +276,6 @@
             this.button10.Size = new System.Drawing.Size(138, 199);
             this.button10.TabIndex = 3;
             this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button9
             // 
@@ -297,7 +286,6 @@
             this.button9.Size = new System.Drawing.Size(138, 199);
             this.button9.TabIndex = 2;
             this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button7
             // 
@@ -308,7 +296,6 @@
             this.button7.Size = new System.Drawing.Size(138, 199);
             this.button7.TabIndex = 1;
             this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -319,14 +306,13 @@
             this.button8.Size = new System.Drawing.Size(137, 199);
             this.button8.TabIndex = 0;
             this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Yellow;
+            this.label3.BackColor = System.Drawing.Color.LightSlateGray;
             this.label3.Font = new System.Drawing.Font("Californian FB", 20.25F);
-            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(10, 708);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(94, 31);
@@ -338,7 +324,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Californian FB", 26.25F);
-            this.label1.ForeColor = System.Drawing.Color.Yellow;
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(249, 123);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(293, 40);
@@ -378,9 +364,9 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Yellow;
+            this.label2.BackColor = System.Drawing.Color.LightSlateGray;
             this.label2.Font = new System.Drawing.Font("Californian FB", 20.25F);
-            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(4, 424);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(253, 31);
@@ -406,7 +392,6 @@
             this.button3.Size = new System.Drawing.Size(138, 204);
             this.button3.TabIndex = 1;
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -417,20 +402,17 @@
             this.button4.Size = new System.Drawing.Size(137, 204);
             this.button4.TabIndex = 0;
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // StarWars
+            // Pixar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(829, 540);
             this.Controls.Add(this.panel2);
-            this.ForeColor = System.Drawing.Color.Black;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "StarWars";
-            this.Text = "Star Wars";
+            this.Name = "Pixar";
+            this.Text = "Pixar";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel6.ResumeLayout(false);
@@ -470,7 +452,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button5;
         public System.Windows.Forms.TextBox txtReproducir;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtMarv;
         private System.Windows.Forms.Button button6;
     }
 }
