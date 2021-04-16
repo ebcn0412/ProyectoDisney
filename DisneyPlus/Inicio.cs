@@ -16,7 +16,6 @@ namespace DisneyPlus
     {
         int contador = 0;
         listadoble lista;
-        List<string> listaNational = new List<string>();
         List<string> listaStar = new List<string>();
         List<string> listaDisney = new List<string>();
         public Inicio()
