@@ -14,46 +14,41 @@ namespace DisneyPlus
     {
         public Disneyp()
         {
-            //InitializeComponent();
-
+            InitializeComponent();
             //MARVEL
-            /*listamarvel.Add("falcon y el soldado del invierno"); listamarvel.Add("wanda vision"); listamarvel.Add("antman");
-            listamarvel.Add("avengers"); listamarvel.Add("black panter"); listamarvel.Add("captain marvel");
-            listamarvel.Add("avengers endgame"); listamarvel.Add("spider man"); listamarvel.Add("agents of shield");
-            listamarvel.Add("captain carter "); listamarvel.Add(""); listamarvel.Add("");
-            listamarvel.Add("runaways"); listamarvel.Add("punisher"); listamarvel.Add("616"); listamarvel.Add("legends");
-            //decisionMarvel pila = new decisionMarvel();
+            listaDisney.Add("raya"); listaDisney.Add("flora y ulises"); listaDisney.Add("aladdin");
+            listaDisney.Add("el rey leon"); listaDisney.Add("mulan"); listaDisney.Add("piratas del caribe");
+            listaDisney.Add("malefica"); listaDisney.Add("la casa de raven"); listaDisney.Add("kim possible");
+            listaDisney.Add("enredados otra vez la serie"); listaDisney.Add("bia"); listaDisney.Add("amphibia");
+            listaDisney.Add("gravity falls");
+            decisionMarvel pila = new decisionMarvel();
             //para cargar mi lista siempre
             foreach (string elemento in pila.pilaMiLista)
             {
                 txtMarv.Text = elemento;
             }
         }
+
         string variable;
-        /*Form salto = new decisionMarvel();
+        Form salto = new decisionMarvel();
         decisionMarvel hola = new decisionMarvel();
         Categorías regreso = new Categorías();
-        List<string> listamarvel = new List<string>();
+        List<string> listaDisney = new List<string>();
 
 
-
-
-        private void label1_Click(object sender, EventArgs e)
+        private void Disneyp_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void panel2_Paint(object sender, PaintEventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }
-
-
 
         private void button4_Click(object sender, EventArgs e)
         {
-            //falcon
-            variable = "falcon y el soldado del invierno";
+            variable = "raya";
             hola.txtDato.Text = variable;
             hola.Show();
             this.Hide();
@@ -61,18 +56,15 @@ namespace DisneyPlus
 
         private void button3_Click(object sender, EventArgs e)
         {
-            //wanda vision
-            variable = "wanda vision";
+            variable = "flora y ulises";
             hola.txtDato.Text = variable;
             hola.Show();
             this.Hide();
-
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            //ant man
-            variable = "antman";
+            variable = "aladdin";
             hola.txtDato.Text = variable;
             hola.Show();
             this.Hide();
@@ -80,8 +72,7 @@ namespace DisneyPlus
 
         private void button7_Click(object sender, EventArgs e)
         {
-            //avengers
-            variable = "avengers";
+            variable = "el rey leon";
             hola.txtDato.Text = variable;
             hola.Show();
             this.Hide();
@@ -89,8 +80,7 @@ namespace DisneyPlus
 
         private void button9_Click(object sender, EventArgs e)
         {
-            //black panter
-            variable = "black panter";
+            variable = "malefica";
             hola.txtDato.Text = variable;
             hola.Show();
             this.Hide();
@@ -98,8 +88,7 @@ namespace DisneyPlus
 
         private void button10_Click(object sender, EventArgs e)
         {
-            //captain marvel
-            variable = "captain marvel";
+            variable = "mulan";
             hola.txtDato.Text = variable;
             hola.Show();
             this.Hide();
@@ -107,8 +96,7 @@ namespace DisneyPlus
 
         private void button12_Click(object sender, EventArgs e)
         {
-            //avengers endgame
-            variable = "avengers endgame";
+            variable = "piratas del caribe";
             hola.txtDato.Text = variable;
             hola.Show();
             this.Hide();
@@ -116,8 +104,7 @@ namespace DisneyPlus
 
         private void button11_Click(object sender, EventArgs e)
         {
-            //spider man
-            variable = "spider man";
+            variable = "ralph el demoledor";
             hola.txtDato.Text = variable;
             hola.Show();
             this.Hide();
@@ -125,8 +112,7 @@ namespace DisneyPlus
 
         private void button18_Click(object sender, EventArgs e)
         {
-            //agents of shield
-            variable = "agents of shield";
+            variable = "amphibia";
             hola.txtDato.Text = variable;
             hola.Show();
             this.Hide();
@@ -134,8 +120,7 @@ namespace DisneyPlus
 
         private void button17_Click(object sender, EventArgs e)
         {
-            //captain carter
-            variable = "captain carter";
+            variable = "bia";
             hola.txtDato.Text = variable;
             hola.Show();
             this.Hide();
@@ -143,8 +128,7 @@ namespace DisneyPlus
 
         private void button16_Click(object sender, EventArgs e)
         {
-            //runaways
-            variable = "runaways";
+            variable = "enredados otra vez la serie";
             hola.txtDato.Text = variable;
             hola.Show();
             this.Hide();
@@ -152,8 +136,7 @@ namespace DisneyPlus
 
         private void button15_Click(object sender, EventArgs e)
         {
-            //punisher
-            variable = "punisher";
+            variable = "gravity falls";
             hola.txtDato.Text = variable;
             hola.Show();
             this.Hide();
@@ -161,8 +144,7 @@ namespace DisneyPlus
 
         private void button13_Click(object sender, EventArgs e)
         {
-            //616
-            variable = "616";
+            variable = "kim possible";
             hola.txtDato.Text = variable;
             hola.Show();
             this.Hide();
@@ -170,33 +152,29 @@ namespace DisneyPlus
 
         private void button14_Click(object sender, EventArgs e)
         {
-            //legends
-            variable = "legends";
+            variable = "la casa de raven";
             hola.txtDato.Text = variable;
             hola.Show();
             this.Hide();
         }
 
-        private void button5_Click(object sender, EventArgs e)
-        {
-
-            foreach(string elemento in listamarvel)
-            {
-                if (elemento.Equals(txtReproducir.Text))
-                {
-                    MessageBox.Show("Si existe la pelicula: "+txtReproducir.Text);
-
-                }
-                
-            }
-
-        }
-
-        private void button6_Click(object sender, EventArgs e)
+        private void button6_Click_1(object sender, EventArgs e)
         {
             regreso.Show();
             this.Hide();
-            }*/
+        }
+
+        private void button5_Click_1(object sender, EventArgs e)
+        {
+            foreach (string elemento in listaDisney)
+            {
+                if (elemento.Equals(txtReproducir.Text))
+                {
+                    MessageBox.Show("Si existe la pelicula: " + txtReproducir.Text);
+
+                }
+
+            }
         }
     }
 }

@@ -45,5 +45,19 @@ namespace DisneyPlus
             pixi.Show();
             this.Hide();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Disneyp minidi = new Disneyp();
+            minidi.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            StarWars ministar = new StarWars();
+            ministar.Show();
+            this.Hide();
+        }
     }
 }
