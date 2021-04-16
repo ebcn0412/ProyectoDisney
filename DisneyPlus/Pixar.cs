@@ -14,15 +14,18 @@ namespace DisneyPlus
     {
         public Pixar()
         {
-            //InitializeComponent();
+            InitializeComponent();
 
-            //MARVEL
-            /*listamarvel.Add("falcon y el soldado del invierno"); listamarvel.Add("wanda vision"); listamarvel.Add("antman");
-            listamarvel.Add("avengers"); listamarvel.Add("black panter"); listamarvel.Add("captain marvel");
-            listamarvel.Add("avengers endgame"); listamarvel.Add("spider man"); listamarvel.Add("agents of shield");
-            listamarvel.Add("captain carter "); listamarvel.Add(""); listamarvel.Add("");
-            listamarvel.Add("runaways"); listamarvel.Add("punisher"); listamarvel.Add("616"); listamarvel.Add("legends");
-            //decisionMarvel pila = new decisionMarvel();
+            listaPixar.Add("soul"); listaPixar.Add("onward"); listaPixar.Add("toy story");
+            listaPixar.Add("bichos"); listaPixar.Add("monsters inc"); listaPixar.Add("buscando a nemo");
+            listaPixar.Add("valiente"); listaPixar.Add("los increibles"); listaPixar.Add("forky asks a question");
+            listaPixar.Add("pixar in real life"); listaPixar.Add("a celebration of the music from coco"); 
+            listaPixar.Add("inside pixar");listaPixar.Add("the pixar story"); listaPixar.Add("pixar popcorn");
+            decisionMarvel pila = new decisionMarvel();
+        
+
+            
+            
             //para cargar mi lista siempre
             foreach (string elemento in pila.pilaMiLista)
             {
@@ -30,157 +33,16 @@ namespace DisneyPlus
             }
         }
         string variable;
-        /*Form salto = new decisionMarvel();
+        Form salto = new decisionMarvel();
         decisionMarvel hola = new decisionMarvel();
         Categorías regreso = new Categorías();
-        List<string> listamarvel = new List<string>();
+        List<string> listaPixar = new List<string>();
 
-
-
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            //falcon
-            variable = "falcon y el soldado del invierno";
-            hola.txtDato.Text = variable;
-            hola.Show();
-            this.Hide();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            //wanda vision
-            variable = "wanda vision";
-            hola.txtDato.Text = variable;
-            hola.Show();
-            this.Hide();
-
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            //ant man
-            variable = "antman";
-            hola.txtDato.Text = variable;
-            hola.Show();
-            this.Hide();
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            //avengers
-            variable = "avengers";
-            hola.txtDato.Text = variable;
-            hola.Show();
-            this.Hide();
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-            //black panter
-            variable = "black panter";
-            hola.txtDato.Text = variable;
-            hola.Show();
-            this.Hide();
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-            //captain marvel
-            variable = "captain marvel";
-            hola.txtDato.Text = variable;
-            hola.Show();
-            this.Hide();
-        }
-
-        private void button12_Click(object sender, EventArgs e)
-        {
-            //avengers endgame
-            variable = "avengers endgame";
-            hola.txtDato.Text = variable;
-            hola.Show();
-            this.Hide();
-        }
-
-        private void button11_Click(object sender, EventArgs e)
-        {
-            //spider man
-            variable = "spider man";
-            hola.txtDato.Text = variable;
-            hola.Show();
-            this.Hide();
-        }
-
-        private void button18_Click(object sender, EventArgs e)
-        {
-            //agents of shield
-            variable = "agents of shield";
-            hola.txtDato.Text = variable;
-            hola.Show();
-            this.Hide();
-        }
-
-        private void button17_Click(object sender, EventArgs e)
-        {
-            //captain carter
-            variable = "captain carter";
-            hola.txtDato.Text = variable;
-            hola.Show();
-            this.Hide();
-        }
-
-        private void button16_Click(object sender, EventArgs e)
-        {
-            //runaways
-            variable = "runaways";
-            hola.txtDato.Text = variable;
-            hola.Show();
-            this.Hide();
-        }
-
-        private void button15_Click(object sender, EventArgs e)
-        {
-            //punisher
-            variable = "punisher";
-            hola.txtDato.Text = variable;
-            hola.Show();
-            this.Hide();
-        }
-
-        private void button13_Click(object sender, EventArgs e)
-        {
-            //616
-            variable = "616";
-            hola.txtDato.Text = variable;
-            hola.Show();
-            this.Hide();
-        }
-
-        private void button14_Click(object sender, EventArgs e)
-        {
-            //legends
-            variable = "legends";
-            hola.txtDato.Text = variable;
-            hola.Show();
-            this.Hide();
-        }
 
         private void button5_Click(object sender, EventArgs e)
         {
 
-            foreach(string elemento in listamarvel)
+            foreach(string elemento in listaPixar)
             {
                 if (elemento.Equals(txtReproducir.Text))
                 {
@@ -192,11 +54,137 @@ namespace DisneyPlus
 
         }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+        //soul
+        variable = "soul";
+        hola.txtDato.Text = variable;
+        hola.Show();
+        this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+        //onward
+        variable = "onward";
+        hola.txtDato.Text = variable;
+        hola.Show();
+        this.Hide();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+        //toy story
+        variable = "toy story";
+        hola.txtDato.Text = variable;
+        hola.Show();
+        this.Hide();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+        //bichos
+        variable = "bichos";
+        hola.txtDato.Text = variable;
+        hola.Show();
+        this.Hide();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+        //black panter
+        variable = "monsters inc";
+        hola.txtDato.Text = variable;
+        hola.Show();
+        this.Hide();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+        //buscando a nemo
+        variable = "buscando a nemo";
+        hola.txtDato.Text = variable;
+        hola.Show();
+        this.Hide();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+        //valiente
+        variable = "valiente";
+        hola.txtDato.Text = variable;
+        hola.Show();
+        this.Hide();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+        //los increibles
+        variable = "los increibles";
+        hola.txtDato.Text = variable;
+        hola.Show();
+        this.Hide();
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+        //forky asks a question
+        variable = "forky asks a question";
+        hola.txtDato.Text = variable;
+        hola.Show();
+        this.Hide();
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+        //pixar in real life
+        variable = "pixar in real life";
+        hola.txtDato.Text = variable;
+        hola.Show();
+        this.Hide();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+        //a celebration of the music from coco
+        variable = "a celebration of the music from coco";
+        hola.txtDato.Text = variable;
+        hola.Show();
+        this.Hide();
+    }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+        //inside pixar
+        variable = "inside pixar";
+        hola.txtDato.Text = variable;
+        hola.Show();
+        this.Hide();
+    }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+        //the pixar story
+        variable = "the pixar story";
+        hola.txtDato.Text = variable;
+        hola.Show();
+        this.Hide();
+    }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+        //pixar popcorn
+        variable = "pixar popcorn";
+        hola.txtDato.Text = variable;
+        hola.Show();
+        this.Hide();
+    }
+
         private void button6_Click(object sender, EventArgs e)
         {
-            regreso.Show();
-            this.Hide();
-            }*/
-        }
+        //regresar
+        regreso.Show();
+        this.Hide();
+    }
     }
 }

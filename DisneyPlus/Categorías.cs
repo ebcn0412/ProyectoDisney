@@ -38,5 +38,12 @@ namespace DisneyPlus
             minat.Show();
             this.Hide();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Pixar pixi = new Pixar();
+            pixi.Show();
+            this.Hide();
+        }
     }
 }

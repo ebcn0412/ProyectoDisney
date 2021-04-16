@@ -18,6 +18,7 @@ namespace DisneyPlus
         listadoble lista;
         List<string> listaStar = new List<string>();
         List<string> listaDisney = new List<string>();
+
         public Inicio()
         {
             InitializeComponent();
