@@ -32,6 +32,7 @@ namespace DisneyPlus
         string variable;
         Form salto = new decisionMarvel();
         decisionMarvel hola = new decisionMarvel();
+        Categorías regreso = new Categorías();
         List<string> listamarvel = new List<string>();
 
 
@@ -189,6 +190,12 @@ namespace DisneyPlus
                 
             }
 
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            regreso.Show();
+            this.Hide();
         }
     }
 }

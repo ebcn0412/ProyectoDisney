@@ -28,6 +28,7 @@ namespace DisneyPlus
                 txtNat.Text = elemento;
             }
         }
+        Categorías regreso = new Categorías();
         List<string> listaNational = new List<string>();
         string variable;
         Form salto = new decisionMarvel();
@@ -175,6 +176,12 @@ namespace DisneyPlus
         private void button2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            regreso.Show();
+            this.Hide();
         }
     }
 }
