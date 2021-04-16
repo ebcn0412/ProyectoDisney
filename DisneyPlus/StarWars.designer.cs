@@ -101,6 +101,7 @@
             this.button6.TabIndex = 18;
             this.button6.Text = "Regresar";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // textBox1
             // 
@@ -125,6 +126,7 @@
             this.button5.TabIndex = 16;
             this.button5.Text = "Buscar";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // txtReproducir
             // 
@@ -431,6 +433,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "StarWars";
             this.Text = "Star Wars";
+            this.Load += new System.EventHandler(this.StarWars_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel6.ResumeLayout(false);

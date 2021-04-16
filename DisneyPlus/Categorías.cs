@@ -16,6 +16,7 @@ namespace DisneyPlus
         {
             InitializeComponent();
         }
+        Inicio regresar = new Inicio();
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -57,6 +58,12 @@ namespace DisneyPlus
         {
             StarWars ministar = new StarWars();
             ministar.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            regresar.Show();
             this.Hide();
         }
     }
