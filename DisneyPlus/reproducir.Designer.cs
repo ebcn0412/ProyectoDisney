@@ -35,6 +35,7 @@
             this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
             this.label2 = new System.Windows.Forms.Label();
             this.txtVer = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -107,13 +108,27 @@
             this.txtVer.TabIndex = 5;
             this.txtVer.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Blue;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Font = new System.Drawing.Font("Californian FB", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(174, 515);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(137, 47);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "Salir";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
             // reproducir
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(502, 515);
+            this.ClientSize = new System.Drawing.Size(502, 574);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.txtVer);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.axWindowsMediaPlayer1);
@@ -136,5 +151,6 @@
         private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtVer;
+        private System.Windows.Forms.Button button2;
     }
 }
