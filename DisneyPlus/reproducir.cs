@@ -36,7 +36,7 @@ namespace DisneyPlus
 
         private void button2_Click(object sender, EventArgs e)
         {
-            marvel regre = new marvel();
+            Categorías regre = new Categorías();
             regre.Show();
             this.Hide();
         }
