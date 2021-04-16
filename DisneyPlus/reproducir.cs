@@ -17,7 +17,7 @@ namespace DisneyPlus
             InitializeComponent();
         }
 
-        Queue<string> colaReproducir = new Queue<string>();
+        public Queue<string> colaReproducir = new Queue<string>();
         private void button1_Click(object sender, EventArgs e)
         {
             colaReproducir.Enqueue(txtReproducir.Text);
@@ -32,6 +32,13 @@ namespace DisneyPlus
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            marvel regre = new marvel();
+            regre.Show();
+            this.Hide();
         }
     }
 }

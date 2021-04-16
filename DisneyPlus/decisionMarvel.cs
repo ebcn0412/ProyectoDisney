@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DisneyPlus.CODIGO.PILAA;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,6 +24,11 @@ namespace DisneyPlus
         {
             pilaMiLista.Push(txtDato.Text);
             MessageBox.Show("Agregado a tu lista: "+txtDato.Text);
+
+            foreach(string pilita in pilaMiLista)
+            {
+                MessageBox.Show("1)" + pilita);
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -31,6 +37,11 @@ namespace DisneyPlus
             repro.txtReproducir.Text = txtDato.Text;
             repro.Show();
             this.Hide();
+        }
+
+        private void decisionMarvel_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

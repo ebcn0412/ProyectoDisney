@@ -82,6 +82,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "decisionMarvel";
             this.Text = "Opción";
+            this.Load += new System.EventHandler(this.decisionMarvel_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

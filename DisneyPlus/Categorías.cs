@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net.Cache;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,7 +18,8 @@ namespace DisneyPlus
             InitializeComponent();
         }
         Inicio regresar = new Inicio();
-
+        decisionMarvel eliminar = new decisionMarvel();
+        reproducir delete = new reproducir();
         private void button1_Click(object sender, EventArgs e)
         {
 
@@ -65,6 +67,9 @@ namespace DisneyPlus
         {
             regresar.Show();
             this.Hide();
+            eliminar.pilaMiLista.Clear();
+            delete.colaReproducir.Clear();
+
         }
     }
 }
