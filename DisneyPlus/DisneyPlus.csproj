@@ -59,6 +59,12 @@
     <Compile Include="decisionMarvel.Designer.cs">
       <DependentUpon>decisionMarvel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Disneyp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Disneyp.designer.cs">
+      <DependentUpon>Disneyp.cs</DependentUpon>
+    </Compile>
     <Compile Include="Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,6 +111,9 @@
     </Compile>
     <EmbeddedResource Include="decisionMarvel.resx">
       <DependentUpon>decisionMarvel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Disneyp.resx">
+      <DependentUpon>Disneyp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
