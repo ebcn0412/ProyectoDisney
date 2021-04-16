@@ -91,6 +91,12 @@
     <Compile Include="reproducir.Designer.cs">
       <DependentUpon>reproducir.cs</DependentUpon>
     </Compile>
+    <Compile Include="StarWars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StarWars.designer.cs">
+      <DependentUpon>StarWars.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="decisionMarvel.resx">
       <DependentUpon>decisionMarvel.cs</DependentUpon>
     </EmbeddedResource>
@@ -117,6 +123,9 @@
     </Compile>
     <EmbeddedResource Include="reproducir.resx">
       <DependentUpon>reproducir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StarWars.resx">
+      <DependentUpon>StarWars.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
