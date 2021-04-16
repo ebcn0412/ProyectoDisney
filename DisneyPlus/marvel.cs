@@ -22,6 +22,12 @@ namespace DisneyPlus
             listamarvel.Add("avengers endgame"); listamarvel.Add("spider man"); listamarvel.Add("agents of shield");
             listamarvel.Add("captain carter "); listamarvel.Add(""); listamarvel.Add("");
             listamarvel.Add("runaways"); listamarvel.Add("punisher"); listamarvel.Add("616"); listamarvel.Add("legends");
+            decisionMarvel pila = new decisionMarvel();
+            //para cargar mi lista siempre
+            foreach (string elemento in pila.pilaMiLista)
+            {
+                txtMarv.Text = elemento;
+            }
         }
         string variable;
         Form salto = new decisionMarvel();

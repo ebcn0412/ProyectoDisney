@@ -31,5 +31,12 @@ namespace DisneyPlus
             this.Hide();
             //--------------------------------------------------
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            natgeo minat = new natgeo();
+            minat.Show();
+            this.Hide();
+        }
     }
 }

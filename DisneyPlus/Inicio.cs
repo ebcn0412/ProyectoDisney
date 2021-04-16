@@ -37,13 +37,6 @@ namespace DisneyPlus
             lista.agregarAlFinal(vDato);
             MessageBox.Show("PAGO REALIZADO A TIEMPO, EL SIGUIENTE SERA EN 30 DIAS");
             limpiar();
-
-
-            //national
-            listaNational.Add("atlantis rising"); listaNational.Add("antes que sea tarde"); listaNational.Add("jane"); 
-            listaNational.Add("dentro del okavango"); listaNational.Add("apollo"); listaNational.Add("la historia de dios"); 
-            listaNational.Add("catastrofes aereas"); listaNational.Add("genios que cambiaron"); listaNational.Add("the hot zone");
-            listaNational.Add("secretos en los oceanos");
             Form formulario = new Categorías();
             formulario.Show();
             this.Hide();

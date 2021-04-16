@@ -16,7 +16,7 @@ namespace DisneyPlus
         {
             InitializeComponent();
         }
-        Stack<string> pilaMiLista = new Stack<string>();
+        public Stack<string> pilaMiLista = new Stack<string>();
         reproducir repro = new reproducir();
 
         private void button1_Click(object sender, EventArgs e)

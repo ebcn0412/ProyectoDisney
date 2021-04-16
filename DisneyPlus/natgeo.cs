@@ -20,6 +20,13 @@ namespace DisneyPlus
             listaNational.Add("antes que sea tarde"); listaNational.Add("china misteriosa y salvaje"); listaNational.Add("the hot zone");
             listaNational.Add("one strange rock"); listaNational.Add("planeta hostil"); listaNational.Add("gordon Ramsay sabores extremos");
             listaNational.Add("la historia de dios"); listaNational.Add("tesoros perdidos de egipto");
+            decisionMarvel pila = new decisionMarvel();
+
+            //para cargar mi LISTA SIEMPRE 
+            foreach(string elemento in pila.pilaMiLista)
+            {
+                txtNat.Text = elemento;
+            }
         }
         List<string> listaNational = new List<string>();
         string variable;

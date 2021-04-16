@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(natgeo));
             this.panel2 = new System.Windows.Forms.Panel();
             this.button6 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNat = new System.Windows.Forms.TextBox();
             this.button5 = new System.Windows.Forms.Button();
             this.txtReproducir = new System.Windows.Forms.TextBox();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -70,7 +70,7 @@
             // 
             this.panel2.AutoScroll = true;
             this.panel2.Controls.Add(this.button6);
-            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.txtNat);
             this.panel2.Controls.Add(this.button5);
             this.panel2.Controls.Add(this.txtReproducir);
             this.panel2.Controls.Add(this.panel6);
@@ -101,16 +101,16 @@
             this.button6.Text = "Regresar";
             this.button6.UseVisualStyleBackColor = false;
             // 
-            // textBox1
+            // txtNat
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Black;
-            this.textBox1.Font = new System.Drawing.Font("Californian FB", 9.75F, System.Drawing.FontStyle.Bold);
-            this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(10, 761);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(758, 210);
-            this.textBox1.TabIndex = 17;
+            this.txtNat.BackColor = System.Drawing.Color.Black;
+            this.txtNat.Font = new System.Drawing.Font("Californian FB", 9.75F, System.Drawing.FontStyle.Bold);
+            this.txtNat.ForeColor = System.Drawing.Color.White;
+            this.txtNat.Location = new System.Drawing.Point(10, 761);
+            this.txtNat.Multiline = true;
+            this.txtNat.Name = "txtNat";
+            this.txtNat.Size = new System.Drawing.Size(758, 210);
+            this.txtNat.TabIndex = 17;
             // 
             // button5
             // 
@@ -468,7 +468,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button5;
         public System.Windows.Forms.TextBox txtReproducir;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNat;
         private System.Windows.Forms.Button button6;
     }
 }

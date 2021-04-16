@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(marvel));
             this.panel2 = new System.Windows.Forms.Panel();
             this.button6 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtMarv = new System.Windows.Forms.TextBox();
             this.button5 = new System.Windows.Forms.Button();
             this.txtReproducir = new System.Windows.Forms.TextBox();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -70,7 +70,7 @@
             // 
             this.panel2.AutoScroll = true;
             this.panel2.Controls.Add(this.button6);
-            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.txtMarv);
             this.panel2.Controls.Add(this.button5);
             this.panel2.Controls.Add(this.txtReproducir);
             this.panel2.Controls.Add(this.panel6);
@@ -101,16 +101,16 @@
             this.button6.Text = "Regresar";
             this.button6.UseVisualStyleBackColor = false;
             // 
-            // textBox1
+            // txtMarv
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Black;
-            this.textBox1.Font = new System.Drawing.Font("Californian FB", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(10, 761);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(758, 210);
-            this.textBox1.TabIndex = 17;
+            this.txtMarv.BackColor = System.Drawing.Color.Black;
+            this.txtMarv.Font = new System.Drawing.Font("Californian FB", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMarv.ForeColor = System.Drawing.Color.White;
+            this.txtMarv.Location = new System.Drawing.Point(10, 761);
+            this.txtMarv.Multiline = true;
+            this.txtMarv.Name = "txtMarv";
+            this.txtMarv.Size = new System.Drawing.Size(758, 210);
+            this.txtMarv.TabIndex = 17;
             // 
             // button5
             // 
@@ -468,7 +468,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button5;
         public System.Windows.Forms.TextBox txtReproducir;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtMarv;
         private System.Windows.Forms.Button button6;
     }
 }
