@@ -186,5 +186,18 @@ namespace DisneyPlus
         regreso.Show();
         this.Hide();
     }
+
+        private void button5_Click_1(object sender, EventArgs e)
+        {
+            foreach (string elemento in listaPixar)
+            {
+                if (elemento.Equals(txtReproducir.Text))
+                {
+                    MessageBox.Show("Si existe la pelicula: " + txtReproducir.Text);
+
+                }
+
+            }
+        }
     }
 }
