@@ -46,8 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CODIGO\COLA\cola.cs" />
+    <Compile Include="CODIGO\COLA\nodoCola.cs" />
     <Compile Include="CODIGO\LISTADOBLE\listadoble.cs" />
     <Compile Include="CODIGO\LISTADOBLE\nodo.cs" />
+    <Compile Include="CODIGO\PILAA\nodoPila.cs" />
+    <Compile Include="CODIGO\PILAA\pila.cs" />
     <Compile Include="CODIGO\USUARIO\usuario.cs" />
     <Compile Include="decisionMarvel.cs">
       <SubType>Form</SubType>
@@ -129,7 +133,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CODIGO\LISTAS\" />
-    <Folder Include="CODIGO\PILA\" />
     <Folder Include="IMAGENES\" />
   </ItemGroup>
   <ItemGroup>
