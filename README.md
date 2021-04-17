@@ -1,6 +1,6 @@
 ## Proyecto Disney - Fatima y Emilio
 
-**Instalacion: **
+**Instalacion:**
 para poder utilizar el codigo se ocupa tener instalado *Visual Studio*  posteriormente clonar el repositorio.
 
 ## INSTRUCCIONES:
